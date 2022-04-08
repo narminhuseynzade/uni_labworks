@@ -1,0 +1,219 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container-div {
+  padding: 40px 50px;
+  min-height: 100vh;
+  min-width: 100%;
+  background: rgb(255, 244, 240);
+}
+
+.categories-div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category-div {
+  border: 1px solid #ff5100;
+  background: #ff5100;
+  text-align: center;
+  padding: 7px 10px;
+  margin: 0 5px;
+  width: 300px;
+}
+.category-div:first-child {
+  margin-left: 0;
+}
+.category-div:last-child {
+  margin-right: 0;
+}
+.category-div span {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main-section {
+  margin-top: 2rem;
+  display: flex;
+  height: 400px;
+}
+
+.main-left-div {
+  padding: 0px 40px;
+  width: 65%;
+  border: 1px solid #ff5100;
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-left-text1 {
+  font-weight: 700;
+  font-size: 2em;
+  background: #ff5100;
+  width: fit-content;
+}
+.main-left-text2 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 1.1em;
+  background: #ff5100;
+  width: fit-content;
+}
+.main-right-div {
+  width: 35%;
+  height: 100%;
+}
+.main-boxes {
+  margin-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-box {
+  border: 1px solid #ff5100;
+  height: 190px;
+  width: 100%;
+  background-color: #ff5100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-box-price {
+  line-height: 56px;
+  font-weight: 300;
+  font-size: 3em;
+}
+.main-box-category {
+  font-size: 0.9em;
+  font-weight: 800;
+}
+
+.emoji-boxes {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.emoji-box {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  margin: 0 5px;
+  width: 400px;
+}
+
+.emoji-box:first-child {
+  margin-left: 0;
+}
+
+.emoji-box:last-child {
+  margin-right: 0;
+}
+
+.emoji-span {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.emoji-name {
+  font-weight: 600;
+}
+
+.emoji-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.taco-div {
+  padding: 20px;
+  margin-top: 2rem;
+  min-height: 50vh;
+  background: #fff;
+  border: 1px solid #ff5100;
+  display: flex;
+  align-items: center;
+}
+
+.taco-img-div {
+  width: 40%;
+  margin-right: 2rem;
+}
+
+.taco-img-div img {
+  width: 100%;
+}
+
+.taco-about-div {
+  /* width: 60%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.taco-title {
+  font-weight: 600;
+  font-size: 2em;
+}
+.taco-about {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.taco-btn {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border: 1px solid #ff5100;
+  background: #ff5100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.taco-btn i {
+  margin-left: 1rem;
+  font-size: 14px;
+}
+
+.instant-grams-div {
+  margin-top: 2rem;
+}
+
+.grams-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.7em;
+  position: relative;
+}
+
+.grams-images-div {
+  margin-top: 2rem;
+}
+
+.img-box {
+  display: inline-block;
+  width: 210px;
+  height: 180px;
+  margin: 10px;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

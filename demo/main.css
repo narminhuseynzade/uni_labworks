@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,600;0,900;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+    
+main{
+        display: flex;
+        justify-content: space-between;
+        max-width: 992px;
+        min-width: 768px;
+        margin: 0 auto;
+    }
+    
+    .item {
+    width: 30%;
+    margin: 10px;
+    
+    }
+     
+    h2 {
+    font-size: 12px;
+    font-weight: bold;
+    }
+
+    .item p {
+    height: 30px;
+    }
+    p {
+        font-size: 10px;
+    }
+    
+    img {
+    width: 100%;
+    }
+   
+    
+    button {
+        background-color: #BA99E4;
+        color: rgb(36, 36, 36);
+        text-align: center;
+        border-radius: 4px;
+        width: 100%;
+        padding: 4px;
+        border-color: #BA99E4;
+        margin-top: 25px;
+    }
+    
+    footer {
+     background-color: #eee;
+    color: #666;
+    padding: 15px;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    }
+    footer p {
+    margin: 10px;
+    }
+    
+    .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 992px;
+    min-width: 768px;
+    }
+    
+    .social {
+    width: 20px;
+    margin-top: 10px;
+    }
+    
+    
+    @media (max-width: 768px) {
+  
+    main{
+        flex-direction: column;
+        margin: 0;
+    }
+        
+    .item {
+        margin: 0 auto;
+    }
+    .footer-wrapper {
+       justify-content: space-evenly;
+      }
+    }
+    @media (max-width: 600px) {
+  
+        main{
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0;
+        }
+            
+        .footer-wrapper {
+           justify-content: space-around;
+          }
+        }
+        @media only screen and (min-width: 601px) and (max-width: 767px)  {
+            main{
+                flex-direction:column-reverse;
+                align-items: center;
+                margin: 0;
+            }
+                
+            .footer-wrapper {
+               justify-content: space-around;
+              }
+            }
