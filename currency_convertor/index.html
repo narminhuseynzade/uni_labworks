@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="">
+        </div>
+        <div class="container navbar">
+            <a href="" class="select">БАНК</a>
+            <a href="">БИЗНЕС</a>
+            <a href="">ИНВЕСТИЦИИ</a>
+            <a href="">СТРАХОВАНИЕ</a>
+            <a href="">МОБАЙЛ</a>
+            <a href="">ПУТЕШЕСТВИЯ</a>
+            <a href="">РАЗВЛЕЧЕНИЯ</a>
+        </div>
+        <div>
+            <button>ВОЙТИ</button>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h1>Конвертер валют онлайн</h1>
+            <section class="btn-box">
+                <article>
+                    <p>У меня есть </p>
+                    <button class="left-side-choice" value="RUB">RUB</button>
+                    <button class="left-side-choice" value="USD">USD</button>
+                    <button class="left-side-choice" value="EUR">EUR</button>
+                    <button class="left-side-choice" value="GBP">GBP</button>
+                </article>
+                <article>
+                    <p>Хочу приобрести</p>
+                    <button class="right-side-choice" value="RUB">RUB</button>
+                    <button class="right-side-choice" value="USD">USD</button>
+                    <button class="right-side-choice" value="EUR">EUR</button>
+                    <button class="right-side-choice" value="GBP">GBP</button>
+                </article>
+            </section>
+            <section class="value-box">
+                <aside>
+                    <input type="text" class="left-side-input" value="0" onfocus="this.value=''">
+                    <p class="left-side-info"></p>
+                </aside>
+                <aside>
+                    <input type="text" class="right-side-input" value="0" onfocus="this.value=''">
+                    <p class="right-side-info"></p>
+                </aside>
+            </section>
+
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

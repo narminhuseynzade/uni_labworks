@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+}
+.container{
+    margin: 0 auto;
+}
+.navbar{
+    margin-left: 110px;
+}
+header{
+    background-color: #F5F5F6;
+    display: flex;
+    padding: 20px 180px;
+    align-items: center;
+  
+}
+header a{
+    text-decoration: none;
+    color: #959BA4;
+    font-weight: 500;
+    font-size: 13px; 
+    margin-right: 15px;
+}
+.select{
+    color: black;
+}
+header button{
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 12px;
+}
+h1{
+    font-size: 36px;
+}
+.wrapper{
+    margin: 56px 380px;
+}
+.btn-box,.value-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.btn-box p,.value-box p{
+    color:#9F9F9F;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+article button{
+    border: 1px solid #C6C6C6;
+    color: #C6C6C6;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-right: -5px;
+}
+
+article button:nth-child(2){
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+article button:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    }
+aside{
+    border: 1px solid #C6C6C6;
+    width: 278px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: -5px;
+}
+aside p{
+    margin: 20px 15px;
+}
+aside input{
+    width: 253px;
+    height: 50px;
+    border: none;
+    padding: 15px;
+    font-size: 36px;
+    font-weight: 700;
+}
