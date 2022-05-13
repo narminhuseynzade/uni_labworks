@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+table{
+    border-collapse: collapse;  
+    margin: 50px auto;  
+}
+th, td{
+    border: 1px solid black;
+    padding: 7px;
+}
+thead{
+    background-color: bisque;
+    text-align: center;
+}
+tr th:nth-child(1){
+    width: 50px;
+}
+tr th:nth-child(2){
+    width: 150px;
+}
+tr th:nth-child(3){
+    width: 180px;
+}
+tr th:nth-child(4){
+    width: 200px;
+}
+.pink td:last-child{
+    background-color: pink;
+}
+.green td:last-child{
+    background-color: green;
+}
+.orange td:last-child{
+    background-color: orange;
+}
